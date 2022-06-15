@@ -201,6 +201,7 @@ h5 {
 .sectionfooter {
     background-color: #0c1524;
     border: 1px solid #0c1524;
+    padding-bottom: 2em;
 }
 
 .iconefooter {
@@ -244,3 +245,209 @@ h5 {
     margin-left: 7.2em;
 }
 
+/* media queries */
+
+ 
+
+@media (max-width: 575.98px) {
+
+    .container-input {
+        width: 47.5em;
+        height: 15em;
+    }
+
+    .iconeresp {
+        width: 6.7em;
+    }
+
+    .espacamento-icones2 {
+        margin-top: 0;
+    }
+
+    .margemresp {
+        margin-bottom: 3.5em;
+    }
+
+    .margemresp2 {
+        margin-top: 3em;
+    }
+
+    .cardresp {
+        display: flex;
+        display: inline;
+    }
+
+    .cardsresp {
+        width: 22em;
+        margin-left: 2.2em;
+        margin-bottom: 2em;
+    }
+    
+    .fundoinput {
+        width: 62%;
+    }
+
+    .inputresp {
+    margin-bottom: 1.5em;
+    width: 100%;
+    }
+
+    .iconefooter {
+        margin-top: 6em;
+    }
+
+    .btn-inputresp {
+        width: 100%;
+    }
+
+    .linksresp {
+        display: block;
+        margin-left: 0em;
+        margin-top: 4em;
+    }
+
+    .pfooter {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+
+    .textoresp {
+        margin-top: 1em;
+    }
+
+    .icones {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .imgresp {
+        width: 65%;
+    }
+
+    h1 {
+        font-size: 1.7em;
+        margin-top: 0.3em;
+    }
+
+    .presp {
+        font-size: 0.85em;
+    }
+
+    .paddingresp {
+        padding-top: 1em;
+    }
+
+    .container-input {
+        margin: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+    .espacamento-icones2 {
+        margin-top: 0;
+    }
+
+    .margemresp {
+        margin-bottom: 3.5em;
+    }
+
+    .margemresp2 {
+        margin-top: 3em;
+    }
+
+    .cardresp {
+        display: flex;
+        display: inline;
+    }
+
+    .cardsresp {
+        width: 22em;
+        margin-left: 50%;
+        margin-right: 50%;
+        margin-bottom: 2em;
+    }
+    
+    .inputresp {
+    margin-left: -2.5em;
+    margin-bottom: 1.5em;
+    }
+
+    .iconefooter {
+        margin-top: 6em;
+    }
+
+    .btn-inputresp {
+        width: 100%;
+    }
+
+    .linksresp {
+        display: block;
+        margin-left: 0em;
+        margin-top: 4em;
+    }
+
+    .pfooter {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+
+    .textoresp {
+        margin-top: 1em;
+    }
+
+    .icones {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .imgresp {
+        width: 65%;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 0.3em;
+    }
+
+    .presp {
+            font-size: 0.95em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-inputresp {
+        margin-top: 2em;
+    }
+
+    .iconefooter {
+        margin-top: 4em;
+    }
+
+    .icones {
+        margin-left: 2.2em;
+    }
+
+    .textoresp {
+        font-size: 0.8em;
+    }
+
+    .textorespemail {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .icones {
+        margin-left: 4.3em;
+    }
+
+    .textoresp {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
